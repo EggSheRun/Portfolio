@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav-button a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.resume a {
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
