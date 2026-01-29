@@ -1,10 +1,14 @@
+:root {
+    --main-color: cyan;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body, html {
-    background-color: black
+    background-color: white;
 }
 
 .header {
@@ -17,7 +21,7 @@ body, html {
 .nav-button a {
     margin: 0 10px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -28,7 +32,7 @@ body, html {
     background: linear-gradient(90deg, #b16cea, #ff6566 50%, #ffa74c);
     border-radius: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -36,7 +40,7 @@ body, html {
 
 .logo {
     text-decoration: none;
-    color: white;
+    color: var(--main-color);
     font-family: 'Shadows into Light', cursive;
     font-size: 30px;
 }

@@ -10,10 +10,10 @@
 </head>
 <body>
     <div class="header">
-        <a class="logo" href="#ken  ">Ken Biñas</a>
+        <a class="logo" href="#ken">Ken Biñas</a>
 
         <nav class="nav-button">
-            <a href="#about">About</a>
+            <a href="php/about.php">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Project</a>
             <a href="#contact">Contact</a>
@@ -24,6 +24,6 @@
         </div>
 
     </div>
-    
+
 </body>
 </html>
