@@ -1,5 +1,5 @@
 :root {
-    --main-color: cyan;
+    --main-color: black;
 }
 
 * {
@@ -43,4 +43,18 @@ body, html {
     color: var(--main-color);
     font-family: 'Shadows into Light', cursive;
     font-size: 30px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 80px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
 }
