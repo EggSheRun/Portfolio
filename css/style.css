@@ -1,60 +1,30 @@
-:root {
-    --main-color: black;
-}
-
-* {
-    padding: 0;
+body {
+    height: 100vh;
     margin: 0;
-}
-
-body, html {
-    background-color: white;
-}
-
-.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 40px;
-}
-
-.nav-button a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
 }
 
-.resume a {
-    padding: 8px 16px;
-    background: linear-gradient(90deg, #b16cea, #ff6566 50%, #ffa74c);
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+.love-text {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 25px rgba(255, 105, 135, 0.8);
+    animation: heartbeat 1.5s infinite;
 }
 
-.logo {
-    text-decoration: none;
-    color: var(--main-color);
-    font-family: 'Shadows into Light', cursive;
-    font-size: 30px;
-}
-
-section {
-    min-height: 100vh;
-    padding: 80px 40px;
-    border-bottom: 1px solid #ddd;
-}
-
-.page {
-  display: none;
-}
-
-.page.active {
-  display: block;
+/* Heartbeat animation */
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.05); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
