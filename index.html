@@ -9,31 +9,33 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Ken | Student Developer</title>
-    <script src="/js/main.js" defer> </script>
 </head>
 <body>
-    <div id="loader-wrapper">
-        <div class="loader"></div>
-        <p>Loading Awesome Stuff...</p>
-    </div>
     <div class="header">
         <a class="name-logo" href="index.html">Ken</a>
         <div class="nav-links">
             <a href="/html/about.html">About</a>
-            <a href="/html/skills.html">Skills</a>
+            <a href="/html/skills.html">Skills</a>  
             <a href="/html/contact.html">Contact</a>
             <a href="/html/project.html">Project</a>
         </div>
     </div>
 
     <section class="intro">
-  <h1>Hi, I’m <span>Ken</span></h1>
-  <h2>Student Developer</h2>
-  <p>
-    I’m still learning programming, and I know the journey will be tough—
-    but I’m ready to grow.
-  </p>
-</section>
-    
+        <h1>Hi, I’m <span class="multiText"></span></h1>
+        <h2>Student Developer</h2>
+        <p> A Student in University of Southern Mindanao </p>
+    </section>
+   
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Ken", "Student", "Learner"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
 </body>
 </html>
