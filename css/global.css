@@ -1,7 +1,3 @@
 :root {
-    --primary-color: #CCCCCC;
-    --brand-gradient: linear-gradient(130deg, #b16cea, #ff6566 50%, #ffa74c);
-    --purple-color: #b16cea;
-    --red-color: #ff6566 50%;
-    --orange-color: #ffa74c;
+    --bs-black: #000;
 }
