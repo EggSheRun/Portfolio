@@ -13,10 +13,11 @@ body, html {
 
 body {
   background: url('/images/anya-bg.jpg');
-  background-position: center;
+  background-size: contain;
+  background-position: bottom left;
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: scroll;
+  background-color: #e8a092;
 }
 
 .header {
